@@ -25,7 +25,7 @@ var source = require('vinyl-source-stream'),
   var exorcist = require('exorcist');
   var buffer = require('vinyl-buffer');
   var transform = require('vinyl-transform');
-  var mapFileName = '/app/scripts/app.js.map';
+  var mapFileName = './app/scripts/app.js.map';
 
 
 var browserSync = require('browser-sync');
